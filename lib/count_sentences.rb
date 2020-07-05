@@ -5,4 +5,6 @@ class String
     self.match(/[.]\z/)? true : false
   end
 
+  def question?
+    self.match(/[?]\z/)? true : false
 end
