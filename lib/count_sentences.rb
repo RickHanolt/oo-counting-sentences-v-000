@@ -12,4 +12,7 @@ class String
   def exclamation?
     self.match(/[!]\z/)? true : false
   end
+
+  def count_sentences
+    self.scan(/[?!.]
 end
