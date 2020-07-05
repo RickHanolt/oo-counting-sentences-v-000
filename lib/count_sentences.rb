@@ -8,5 +8,8 @@ class String
   def question?
     self.match(/[?]\z/)? true : false
   end
-  
+
+  def exclamation?
+    self.match(/[!]\z/)? true : false
+  end
 end
