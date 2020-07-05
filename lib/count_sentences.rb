@@ -7,4 +7,5 @@ class String
 
   def question?
     self.match(/[?]\z/)? true : false
+  end
 end
