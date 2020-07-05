@@ -2,6 +2,6 @@ require 'pry'
 
 class String
   def sentence?
-    self.scan(/.\z/)
+    self.scan(/.\z/)? true : false
   end
 end
